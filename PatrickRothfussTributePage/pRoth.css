@@ -1,0 +1,42 @@
+.container {
+	background-color: rgb(223, 240, 228);
+	border: solid rgb(192, 192, 192);
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.head {
+	margin-top: 15px;
+	width: 620px;
+	padding: 20px;
+	border: 5px solid gray;
+	border-radius: 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.main {
+	font-variant: small-caps;
+}
+
+.secondary {
+	font-variant: small-caps;
+	font-size: 190%;
+}
+
+.picture {
+	border: solid gray;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.section {
+	margin-top: 10px;
+	width: 620px;
+	margin-bottom: 30px;
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

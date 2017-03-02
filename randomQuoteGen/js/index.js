@@ -2,12 +2,12 @@ $(document).ready(function() {
   $.ajaxSetup({
     cache:false
   });
-  $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand", function(json) {
+  $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand", function(json) {
       $(".message").append(json[0].content + "<p>&mdash; " + json[0].title + "</p>");
     });
   $("#getQuote").on("click", function() {
     $(".message").html("\"");
-    $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand", function(json) {
+    $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand", function(json) {
       $(".message").append(json[0].content + "<p>&mdash; " + json[0].title + "</p>");
     });
   });
